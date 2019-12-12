@@ -23,7 +23,7 @@ class DesafioTest {
 		Desafio desafio = new Desafio(20);
 		desafio.run();
 		assertEquals(6, desafio.getBig3Count());
-		assertEquals(4, desafio.getBig5Count());
+		assertEquals(4, desafio.getBig5Count()); 
 	}
 	
 	@Test
@@ -41,5 +41,5 @@ class DesafioTest {
 		assertEquals(16, desafio.getBig3Count());
 		assertEquals(10, desafio.getBig5Count());
 	}
-
+  //Teste
 }
