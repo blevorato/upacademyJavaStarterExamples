@@ -1,27 +1,14 @@
 package pt.upacademy.desafios.desafio4;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Desafio {
 
-	public static int[] ints(String string) {
-		int count = 0;
-		for (int index=0;index< string.length();index++) {
-			char c = string.charAt(index);
-			if (Character.isDigit(c)) {
-				count++;
-				
-			}
-		}
-		
-		int[]numeros = new int[count];
-		
-		for (int index2 =0;index2<count;index2++) {
-			
-		}
-		return numeros;
-	}
-=======
+
 	private static Scanner scanner;
->>>>>>> c6d7fd6cbd2a0b9849a40b5706e1d67cd01ab013
+
 
 	public static int[] ints(String msg) {
 		List<Integer> result = new ArrayList<Integer>();
